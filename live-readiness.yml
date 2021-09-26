@@ -4,7 +4,7 @@ metadata:
   name: healthcheck
   labels:
     app: healthcheck
-	
+
 spec:
   replicas: 4
   selector:
