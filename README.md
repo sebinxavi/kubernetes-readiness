@@ -54,7 +54,7 @@ if __name__ == "__main__":
 ### Step-2: 
 We will Dockerize the app and push it to a Docker hub repository. The app will listen on port 5000.
 
-#### Dockefile
+#### Dockerfile
 ~~~
 FROM alpine:3.8
 RUN mkdir /var/flaskapp
