@@ -145,13 +145,10 @@ spec:
 ~~~
 
 
-initialDelaySeconds: Number of seconds after the container has started before liveness or readiness probes are initiated.
-
-periodSeconds: How often (in seconds) to perform the probe. 
-
-timeoutSeconds: Number of seconds after which the probe times out. 
-
-failureThreshold: When a probe fails, Kubernetes will try failureThreshold times before giving up. Giving up in case of liveness probe means restarting the container. In case of readiness probe the Pod will be marked Unready.
+- initialDelaySeconds: Number of seconds after the container has started before liveness or readiness probes are initiated.
+- periodSeconds: How often (in seconds) to perform the probe. 
+- timeoutSeconds: Number of seconds after which the probe times out. 
+- failureThreshold: When a probe fails, Kubernetes will try failureThreshold times before giving up. Giving up in case of liveness probe means restarting the container. In case of readiness probe the Pod will be marked Unready.
 
 Deploy the manifest through kubectl apply. Once deployed, I’ve run a --watch command to keep an eye on the deployment. Here’s what it looked like.
 
