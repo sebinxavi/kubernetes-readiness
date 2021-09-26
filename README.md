@@ -68,7 +68,9 @@ CMD ["python3","app.py"]
 ~~~
 
 ##### requirement.txt
+~~~
 flask
+~~~
 
 I have uploaded this Container Image to docker hub and it is available in sebinxavi/k8s-readiness:v1
 
